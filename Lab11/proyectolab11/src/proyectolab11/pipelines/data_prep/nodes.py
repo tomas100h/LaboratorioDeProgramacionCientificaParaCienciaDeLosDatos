@@ -22,9 +22,9 @@ def _parse_money(x: pd.Series) -> pd.Series:
 
 
 def get_data():
-    url_companies = 'https://github.com/MDS7202/lab_11/raw/main/companies.csv'
-    url_reviews = 'https://github.com/MDS7202/lab_11/raw/main/reviews.csv'
-    url_shuttles = 'https://github.com/MDS7202/lab_11/raw/main/shuttles.xlsx'
+    url_companies = "https://github.com/MDS7202/lab_11/raw/main/companies.csv"
+    url_reviews = "https://github.com/MDS7202/lab_11/raw/main/reviews.csv"
+    url_shuttles = "https://github.com/MDS7202/lab_11/raw/main/shuttles.xlsx"
     companies = pd.read_csv(url_companies)
     reviews = pd.read_csv(url_reviews)
     shuttles = pd.read_excel(url_shuttles)
@@ -51,8 +51,8 @@ def preprocess_shuttles(shuttles: pd.DataFrame) -> pd.DataFrame:
     Args:
         shuttles: Raw data.
     Returns:
-        Preprocessed data, with `price` converted to a float and `d_check_complete`,
-        `moon_clearance_complete` converted to boolean.
+        Preprocessed data, with `price` converted to a float and
+        `d_check_complete`,`moon_clearance_complete` converted to boolean.
     """
     shuttles["d_check_complete"] = _is_true(shuttles["d_check_complete"])
     shuttles["moon_clearance_complete"] = _is_true(shuttles["moon_clearance_complete"])
