@@ -1,0 +1,29 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+
+companies:
+  type: pandas.ParquetDataSet
+  filepath: ./data/01_raw/companies
+
+shuttles:
+  type: pandas.ParquetDataSet
+  filepath: ./data/01_raw/shuttles
+
+reviews:
+  type: pandas.ParquetDataSet
+  filepath: ./data/01_raw/reviews
+
+companies_preprocess:
+  type: pandas.ParquetDataSet
+  filepath: ./data/02_intermediate/companies_preprocess
+
+shuttles_preprocess:
+  type: pandas.ParquetDataSet
+  filepath: ./data/02_intermediate/shuttles_preprocess
+
+reviews_preprocess:
+  type: pandas.ParquetDataSet
+  filepath: ./data/02_intermediate/reviews_preprocess
