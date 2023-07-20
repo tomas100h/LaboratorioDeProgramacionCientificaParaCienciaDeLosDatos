@@ -1,5 +1,5 @@
-"""Proyecto2 file for ensuring the package is executable
-as `proyecto2` and `python -m proyecto2`
+"""ProyectoCreditScore file for ensuring the package is executable
+as `proyectocreditscore` and `python -m proyectocreditscore`
 """
 import importlib
 from pathlib import Path

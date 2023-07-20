@@ -1,4 +1,4 @@
-# Proyecto2
+# ProyectoCreditScore
 
 ## Overview
 

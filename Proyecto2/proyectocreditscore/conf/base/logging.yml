@@ -34,7 +34,7 @@ loggers:
   kedro:
     level: INFO
 
-  proyecto2:
+  proyectocreditscore:
     level: INFO
 
 root:

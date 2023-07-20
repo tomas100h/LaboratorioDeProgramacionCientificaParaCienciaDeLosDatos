@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# proyecto2 documentation build
+# proyectocreditscore documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from proyecto2 import __version__ as release
+from proyectocreditscore import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "proyecto2"
+project = "proyectocreditscore"
 author = "Kedro"
 
 # The short X.Y version.
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "proyecto2doc"
+htmlhelp_basename = "proyectocreditscoredoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "proyecto2.tex",
-        "proyecto2 Documentation",
+        "proyectocreditscore.tex",
+        "proyectocreditscore Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "proyecto2",
-        "proyecto2 Documentation",
+        "proyectocreditscore",
+        "proyectocreditscore Documentation",
         [author],
         1,
     )
@@ -176,11 +176,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "proyecto2",
-        "proyecto2 Documentation",
+        "proyectocreditscore",
+        "proyectocreditscore Documentation",
         author,
-        "proyecto2",
-        "Project proyecto2 codebase.",
+        "proyectocreditscore",
+        "Project proyectocreditscore codebase.",
         "Data-Science",
     )
 ]
