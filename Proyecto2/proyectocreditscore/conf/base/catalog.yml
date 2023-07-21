@@ -27,10 +27,10 @@ y_test:
   type: pandas.ParquetDataSet
   filepath: ./data/05_model_input/y_test
 
-X_train_preprocessed:
-  type: pandas.ParquetDataSet
-  filepath: ./data/05_model_input/X_train_preprocessed
+Preprocessor:
+  type: pickle.PickleDataSet
+  filepath: ./data/05_model_input/Preprocessor
 
-X_test_preprocessed:
+Best_clasificators:
   type: pandas.ParquetDataSet
-  filepath: ./data/05_model_input/X_test_preprocessed
+  filepath: ./data/06_models/Best_clasificators

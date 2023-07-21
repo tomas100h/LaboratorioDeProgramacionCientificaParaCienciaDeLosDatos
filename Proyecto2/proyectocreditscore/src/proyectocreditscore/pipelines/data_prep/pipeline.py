@@ -5,7 +5,6 @@ generated using Kedro 0.18.11
 
 from kedro.pipeline import Pipeline, node, pipeline
 
-
 from .nodes import load_and_clean_dataset
 
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tomasceballos/Universidad/Lab/Proyecto2/proyectocreditscore/mlruns/0/7f060e8e90b541e6b1a36689995cae5b/artifacts
+end_time: 1689971150423
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f060e8e90b541e6b1a36689995cae5b
+run_name: Logistic Regression
+run_uuid: 7f060e8e90b541e6b1a36689995cae5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689971150404
+status: 4
+tags: []
+user_id: tomasceballos

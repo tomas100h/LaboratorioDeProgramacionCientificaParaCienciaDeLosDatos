@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tomasceballos/Universidad/Lab/Proyecto2/proyectocreditscore/mlruns/0/1a795d9d121046a4be72eb4ff837aa21/artifacts
+end_time: 1689973373916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a795d9d121046a4be72eb4ff837aa21
+run_name: Dummy
+run_uuid: 1a795d9d121046a4be72eb4ff837aa21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689973373909
+status: 4
+tags: []
+user_id: tomasceballos
