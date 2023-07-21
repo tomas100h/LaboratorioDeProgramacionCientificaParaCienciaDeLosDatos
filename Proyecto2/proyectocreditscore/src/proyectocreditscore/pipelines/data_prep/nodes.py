@@ -17,7 +17,9 @@ def load_and_clean_dataset(df: pd.DataFrame) -> pd.DataFrame:
     )
     df = df.query(query_string)
     df.loc[:, "occupation"] = df["occupation"].astype(str)
-    df.loc[:, "payment_of_min_amount"] = df["payment_of_min_amount"].replace("nm", "no").replace("NM", "no")
+    df.loc[:, "payment_of_min_amount"] = (
+        df["payment_of_min_amount"].replace("nm", "no").replace("NM", "no")
+    )
     df = df[df["payment_behaviour"] != "9#%8"]
     df.dropna(inplace=True)
     return df

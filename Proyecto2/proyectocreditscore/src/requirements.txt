@@ -29,3 +29,4 @@ kedro-viz
 kedro[extras]
 pyarrow
 mlflow
+kedro-mlflow

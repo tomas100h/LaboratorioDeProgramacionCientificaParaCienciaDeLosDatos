@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tomasceballos/Universidad/Lab/Proyecto2/proyectocreditscore/mlruns/0/4039809af3e14c598a5e75eea79c6d8f/artifacts
+end_time: 1689974088171
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4039809af3e14c598a5e75eea79c6d8f
+run_name: SVM
+run_uuid: 4039809af3e14c598a5e75eea79c6d8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689974084088
+status: 3
+tags: []
+user_id: tomasceballos

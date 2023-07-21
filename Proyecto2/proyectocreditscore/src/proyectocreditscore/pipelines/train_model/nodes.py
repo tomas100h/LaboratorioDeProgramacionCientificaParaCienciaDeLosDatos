@@ -146,7 +146,6 @@ def select_model(
     y_test: pd.DataFrame,
     preprocessor: ColumnTransformer,
 ) -> pd.DataFrame:
-
     # Preprocesar las características utilizando el preprocessor
     X_train_preprocessed = preprocessor.fit_transform(X_train)
     X_test_preprocessed = preprocessor.transform(X_test)
@@ -160,7 +159,7 @@ def select_model(
     classifiers = {
         "Dummy": DummyClassifier(strategy="stratified"),
         "Logistic Regression": LogisticRegression(),
-        "K-Nearest Neighbors": KNeighborsClassifier(),
+        # "K-Nearest Neighbors": KNeighborsClassifier(),
         "Decision Tree": DecisionTreeClassifier(),
         "SVM": SVC(),
         "Random Forest": RandomForestClassifier(),

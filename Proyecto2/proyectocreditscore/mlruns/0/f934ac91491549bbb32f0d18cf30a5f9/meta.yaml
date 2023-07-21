@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tomasceballos/Universidad/Lab/Proyecto2/proyectocreditscore/mlruns/0/f934ac91491549bbb32f0d18cf30a5f9/artifacts
+end_time: 1689974091345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f934ac91491549bbb32f0d18cf30a5f9
+run_name: Random Forest
+run_uuid: f934ac91491549bbb32f0d18cf30a5f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689974088173
+status: 3
+tags: []
+user_id: tomasceballos
