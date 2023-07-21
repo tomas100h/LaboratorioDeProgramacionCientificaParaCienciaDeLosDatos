@@ -2,3 +2,11 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+dataset_raw:
+  type: pandas.ParquetDataSet
+  filepath: data/01_raw/dataset.pq
+
+dataset_clean:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/dataset_clean.pq
