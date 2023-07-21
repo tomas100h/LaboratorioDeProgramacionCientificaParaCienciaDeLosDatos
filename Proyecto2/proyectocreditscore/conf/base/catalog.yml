@@ -10,3 +10,27 @@ dataset_raw:
 dataset_clean:
   type: pandas.ParquetDataSet
   filepath: data/02_intermediate/dataset_clean.pq
+
+X_train:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/X_train
+
+X_test:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/X_test
+
+y_train:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/y_train
+
+y_test:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/y_test
+
+X_train_preprocessed:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/X_train_preprocessed
+
+X_test_preprocessed:
+  type: pandas.ParquetDataSet
+  filepath: ./data/05_model_input/X_test_preprocessed
