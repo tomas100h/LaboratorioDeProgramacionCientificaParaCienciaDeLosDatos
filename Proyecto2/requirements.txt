@@ -14,3 +14,4 @@ pyarrow
 black
 isort
 flake8
+matplotlib
